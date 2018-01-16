@@ -1,0 +1,5 @@
+<!--pages/index/index.wxml-->
+<view class='container'>
+  <view wx:for="{{notes}}" catchtap='toDeatil' data-id="{{item.id}}">{{item.title}}</view>
+</view>
+
